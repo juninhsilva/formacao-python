@@ -1,0 +1,6 @@
+print(1+1)
+print(1-2)
+print(10*136.2)
+print(2200/15)
+print(22//10)
+print(10**2*2)
