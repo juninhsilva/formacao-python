@@ -33,7 +33,7 @@ IMPORTANTE: As funções "input" e "print" são acessíveis nativamente em Pytho
  - "print": função que imprime um texto enviado em seu parâmetro, a qual é essencial para a 
    impressão dos dados de saída. 
 '''
-N = int(input())
+n = int(input())
 
 ''' 
 TODO  Verifique, para cada entrada A e B, se os dois valores são compatíveis e imprima se
@@ -41,5 +41,14 @@ TODO  Verifique, para cada entrada A e B, se os dois valores são compatíveis e
 '''
 
 while(N > 0):
-    A = int(input())
-    B = int(input())
+    n-=1
+    numeros = input().split();
+    a = numeros[0]
+    b = numeros[1]
+
+    if a.endswith(B):
+        print("encaixa")
+    else:
+        print("nao encaixa")
+
+    
