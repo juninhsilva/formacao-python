@@ -29,3 +29,50 @@ print(matriz[0][1])
 
 matriz.append([7,8,"d"])
 print(matriz)
+
+lista = []
+
+lista.append(1)
+lista.append("Python")
+
+print(lista)
+
+lista.clear()
+print(lista)
+
+lista = [1, 2, 3, 4, 5]
+lista2 = lista.copy()
+
+print(id(lista), id(lista2))
+
+print(lista2.count(1))
+print(lista2.count(2))
+print(lista2.count(3))
+
+lista.extend(lista2)
+
+print(lista)
+
+print(lista.index(3))
+
+lista.pop(2)
+print(lista)
+
+lista.remove(5)
+print(lista)
+
+lista.reverse()
+print(lista)
+
+lista.sort()
+print(lista)
+
+lista.sort(reverse=True)
+print(lista)
+
+lista = ["111", "2", "30", "55463", "41", "747", "95", "8", "6"]
+lista.sort(key=lambda x: len(x))
+print(lista)
+
+lista.sort(key=lambda x: len(x), reverse=True)
+print(lista)
